@@ -53,3 +53,93 @@ header nav ul li:last-of-type a{
     background-size: cover;
     height: calc(100vh - 86px);
 }
+.main_banner h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    padding-top: 400px;
+    padding-bottom: 1px;
+}
+.main_banner h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.main_banner p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+    max-width: 580px;
+    padding-top: 18px;
+}
+.main_banner .container{
+    max-width: 580px;
+}
+.banner_help{
+    background: #000000;
+    padding-top: 113px;
+    padding-bottom: 108px;
+    text-align: center;
+}
+.banner_help h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.banner_help h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 22px;
+}
+.banner_help .container{
+    max-width: 571px;
+}
+.banner_help a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 10px 5px 5px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    align-items: center;
+    display: inline-flex;
+}
+.banner_help a:before{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    margin-right: 5px;
+    background: black;
+}
