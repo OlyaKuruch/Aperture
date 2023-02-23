@@ -52,6 +52,7 @@ header nav ul li:last-of-type a{
     background-image: url("../images/IMAGE.jpg");
     background-size: cover;
     height: calc(100vh - 86px);
+    position: relative;
 }
 .main_banner h3{
     font-family: 'Poppins', sans-serif;
@@ -63,7 +64,7 @@ header nav ul li:last-of-type a{
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
-    padding-top: 400px;
+    padding-top: 300px;
     padding-bottom: 1px;
 }
 .main_banner h1{
@@ -88,6 +89,138 @@ header nav ul li:last-of-type a{
 }
 .main_banner .container{
     max-width: 580px;
+}
+.bottom_icon{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.bottom_icon li{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.bottom_icon li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/icon_1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 7px;
+}
+.bottom_icon li:nth-child(2):before{
+    background-image: url("../images/icon_2.svg");
+}
+.bottom_icon li:nth-child(3):before{
+    background-image: url("../images/icon_3.svg");
+    width: 32px;
+}
+.bottom_icon li:nth-child(4):before{
+    background-image: url("../images/icon_4.svg");
+    width: 10px;
+    height: 16px;
+}
+.banner_pick1{
+    background-image: url("../images/fuji.png");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.banner_pick1 .container{
+    max-width: 270px;
+    margin-right: 90px;
+}
+.banner_pick1 h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.banner_pick1 p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.banner_pick2{
+    background-image: url("../images/monstera.png");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.banner_pick2 .container{
+    max-width: 270px;
+    margin-right: 90px;
+}
+.banner_pick2 h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.banner_pick2 p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.banner_pick3{
+    background-image: url("../images/star.png");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.banner_pick3 .container{
+    max-width: 270px;
+    margin-right: 90px;
+}
+.banner_pick3 h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.banner_pick3 p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
 }
 .banner_help{
     background: #000000;
