@@ -53,6 +53,12 @@ header nav ul li:last-of-type a{
     background-size: cover;
     height: calc(100vh - 86px);
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.main_banner .container{
+    margin: inherit;
 }
 .main_banner h3{
     font-family: 'Poppins', sans-serif;
@@ -64,7 +70,6 @@ header nav ul li:last-of-type a{
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
-    padding-top: 300px;
     padding-bottom: 1px;
 }
 .main_banner h1{
@@ -86,6 +91,7 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
     max-width: 580px;
     padding-top: 18px;
+    padding-bottom: 71px;
 }
 .main_banner .container{
     max-width: 580px;
@@ -128,6 +134,99 @@ header nav ul li:last-of-type a{
     background-image: url("../images/icon_4.svg");
     width: 10px;
     height: 16px;
+}
+.banner_works{
+    padding-top: 113px;
+    padding-bottom: 84px;
+    background: #000000;
+}
+.banner_works h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.banner_works h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-top: 15px;
+    padding-bottom: 42px;
+}
+.works_field{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1168px;
+}
+.works_field article{
+    max-width: 576px;
+    position: relative;
+    padding-bottom: 16px;
+}
+.works_field article img{
+    display: block;
+    width: 100%;
+}
+.text_works{
+    position: absolute;
+    width: 100%;
+    left: 30px;
+    bottom: 30px;
+}
+.text_works h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    text-align: inherit;
+}
+.text_works p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    max-width: 516px;
+    padding-bottom: 17px;
+}
+.text_works a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 10px 5px 5px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    align-items: center;
+    display: inline-flex;
+}
+.text_works a:before{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    margin-right: 5px;
+    background: black;
 }
 .banner_pick1{
     background-image: url("../images/fuji.png");
