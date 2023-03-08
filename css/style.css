@@ -51,14 +51,14 @@ header nav ul li:last-of-type a{
 .main_banner{
     background-image: url("../images/IMAGE.jpg");
     background-size: cover;
-    height: calc(100vh - 86px);
     position: relative;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 .main_banner .container{
-    margin: inherit;
+    max-width: 600px;
+    margin: auto;
 }
 .main_banner h3{
     font-family: 'Poppins', sans-serif;
@@ -71,6 +71,7 @@ header nav ul li:last-of-type a{
     text-transform: uppercase;
     color: #C0C0C0;
     padding-bottom: 1px;
+    padding-top: 410px;
 }
 .main_banner h1{
     font-family: 'Poppins', sans-serif;
@@ -343,6 +344,7 @@ header nav ul li:last-of-type a{
 }
 .tools .information{
     max-width: 514px;
+    padding-left: 10px;
 }
 .information h4{
     font-family: 'Poppins', sans-serif;
