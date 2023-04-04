@@ -445,6 +445,32 @@ header nav ul li:last-of-type a{
     display: flex;
     align-items: center;
 }
+.owl-nav .owl-prev{
+    position: absolute;
+    left: -10px;
+    top: 30px;
+}
+.owl-nav .owl-prev:before{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: white;
+    font-size: 30px;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    right: -10px;
+    top: 30px;
+}
+.owl-nav .owl-next:before{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: white;
+    font-size: 30px;
+    transform: rotate(180deg);
+    display: inline-block;
+}
 .banner_help{
     background: #000000;
     padding-top: 113px;
@@ -619,4 +645,20 @@ footer .container:last-of-type{
 }
 .social li a{
     padding-left: 20px;
+}
+.ui-dialog{
+    background-color: black;
+}
+.ui-dialog-titlebar{
+    background-color: #181818;
+}
+.ui-dialog-title{
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    color: #C0C0C0;
+}
+.ui-dialog-content{
+    color: white;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
 }
