@@ -17,18 +17,18 @@ header .container{
     justify-content: space-between;
     align-items: center;
 }
-header nav ul{
+header .nav ul{
     display: flex;
     list-style: none;
     align-items: center;
 }
-header nav ul li{
+header .nav ul li{
     margin-left: 32px;
 }
-header nav ul li:first-of-type{
+header .nav ul li:first-of-type{
     margin-right: 24px;
 }
-header nav li a{
+header .nav li a{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -37,16 +37,20 @@ header nav li a{
     color: #FFFFFF;
     text-decoration: none;
 }
-header nav ul li:first-of-type a{
+header .nav ul li:first-of-type a{
     font-size: 13px;
 }
-header nav ul li:last-of-type a{
+header .nav ul li:last-of-type a{
     background: #FFFFFF;
     border-radius: 14px;
     padding: 11px 20px;
     color: #000000;
     font-size: 16px;
     letter-spacing: 0.4px;
+}
+.logo{
+    position: relative;
+    z-index: 3;
 }
 .main_banner{
     background-image: url("../images/IMAGE.jpg");
